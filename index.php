@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    	<div class="row">
+    <div class="row">
 		<div class="col-sm-12">
 			<nav role="navigation" class="navbar navbar-default navbar-static" style="border-bottom: 5px solid #d4a631;">
 				<div class="navbar-header" style="background-color: black; color: white;">
@@ -114,15 +114,15 @@
 	</div>
 <!--This is the end of the first row that contains the header of navigation bar-->
 
-<div class="row">
-	<div class="col-sm-12">
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div> <!--this is an empty column-->
-</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+		</div> <!--this is an empty column-->
+	</div>
 
 <!--This is the second row that contains the page title and the search box-->
 <div class="row">
@@ -231,12 +231,12 @@
 
 <!--This is the forth row that would contain the media objects-->
 <div class="row">
-	<div class="col-sm-12">
+	<div class="col-sm-12 col-md-12 col-lg-12">
 		<div class="row">
-			<div class="col-sm-3"></div>
-			<div class="col-sm-8">
+			<div class="col-sm-3 col-md-3 col-lg-3"></div>
+			<div class="col-sm-8 col-md-8 col-lg-8">
 				<div class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-md-2 col-lg-2">
 						<div>
 							<a style="border-radius: 50%" class="thumbnail" href="allMembers.php"><img style="border-radius: 50%" src="assets/img/ball.jpg" alt="football"></a>
 						</div>
@@ -244,7 +244,7 @@
 							<h3 style="text-align: center; color: #d4a631"><b>Members</b></h3>
 						</div>
 					</div> <!--end of the first image-->
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-md-2 col-lg-2">
 						<div >
 							<a style="border-radius: 50%;" class="thumbnail" href="allStaff.php"><img style="border-radius: 50%" src="assets/img/ball.jpg" alt="football"></a>
 						</div>
@@ -252,7 +252,7 @@
 							<h3 style="text-align: center; color: #d4a631"><b>Staff</b></h3>
 						</div>
 					</div> <!--end of the first image-->
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-md-2 col-lg-2">
 						<div >
 							<a style="border-radius: 50%" class="thumbnail" href="allPayments.php"><img style="border-radius: 50%" src="assets/img/ball.jpg" alt="football"></a>
 						</div>
@@ -260,7 +260,7 @@
 							<h3 style="text-align: center; color: #d4a631"><b>Payments</b></h3>
 						</div>
 					</div> <!--end of the first image-->
-					<div class="col-sm-2">
+					<div class="col-sm-2 col-md-2 col-lg-2">
 						<div >
 							<a style="border-radius: 50%" class="thumbnail" href="allEvents.php"><img style="border-radius: 50%" src="assets/img/ball.jpg" alt="football"></a>
 						</div>
@@ -270,19 +270,18 @@
 					</div> <!--end of the first image-->
 				</div>
 			</div>
-			<div class="col-sm-1"></div>
+			<div class="col-sm-1 col-md-1 col-lg-1"></div>
 		</div>
 	</div>
 </div>
 
-
-    <footer>
-    <div class="row">
+<footer>
+	<div class="row">
         <div class="col-md-4 col-sm-6 footer-navigation">
-            <h3><a href="#"><img src="assets/img/sensiLogo.png"></span></a></h3>
-            
+            <h3><a href="#"><img src="assets/img/sensiLogo.png"></span></a></h3>            
             <p class="company-name">Sensi Tech Innovation Hub © 2018 </p>
         </div>
+
         <div class="col-md-4 col-sm-6 footer-contacts">
             <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
                 <p><span class="new-line-span">67 Sir Samuel Lewis Road</span> Aberdeen, Freetown</p>
@@ -294,14 +293,18 @@
                 <p> <a href="#" target="_blank">sensitechhubft@gmail.com</a></p>
             </div>
         </div>
-        <div class="clearfix visible-sm-block"></div>
+
+        <div class="clearfix visible-sm-block visible-md-block"></div>
         <div class="col-md-4 footer-about">
             <h4>About Sensi</h4>
             <p>Sensi Tech Hub is the first innovation hub in Sierra Leone. It is an open, creative, innovative and interactive space where entrepreneurs or anyone interested in tech would be confortable. Join us by signing up to the hub as a member and become part of this great tech community.</p>
-            <div class="social-links social-icons"><a href="https://www.facebook.com/SensiTech/"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+            <div class="social-links social-icons">
+            	<a href="https://www.facebook.com/SensiTech/"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a>
+            </div>
         </div>
     </div>
 </footer>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
