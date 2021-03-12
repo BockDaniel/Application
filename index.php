@@ -117,10 +117,6 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<br />
-			<br />
-			<br />
-			<br />
-			<br />
 		</div> <!--this is an empty column-->
 	</div>
 
@@ -154,8 +150,6 @@
 
 <div class="row">
 	<div class="col-sm-12">
-		<br />
-		<br />
 		<br />
 	</div> <!--this is an empty column-->
 </div>
