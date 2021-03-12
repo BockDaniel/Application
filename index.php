@@ -18,7 +18,7 @@
 			<nav role="navigation" class="navbar navbar-default navbar-static" style="border-bottom: 5px solid #d4a631;">
 				<div class="navbar-header" style="background-color: black; color: white;">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only">Toggle navigation Some</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
